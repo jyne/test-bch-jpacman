@@ -2,10 +2,10 @@ package nl.tudelft.jpacman.game;
 
 import java.util.List;
 
+import com.google.common.collect.ImmutableList;
+
 import nl.tudelft.jpacman.level.Level;
 import nl.tudelft.jpacman.level.Player;
-
-import com.google.common.collect.ImmutableList;
 
 /**
  * A game with one player and a single level.
@@ -32,7 +32,7 @@ public class SinglePlayerGame extends Game {
 	 * @param l
 	 *            The level.
 	 */
-	protected SinglePlayerGame(Player p, Level l) {
+    protected SinglePlayerGame(Player p, Level l, int i, int j, int k, int m, int n, int o, int q) {
 		assert p != null;
 		assert l != null;
 
